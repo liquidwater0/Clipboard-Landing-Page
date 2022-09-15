@@ -1,0 +1,82 @@
+@use "./variables" as *;
+
+.center {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.place-items-center {
+    place-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1em 1.75em;
+    border-radius: 1000px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: opacity 250ms;
+
+    &.btn-primary {
+        background-color: $strong-cyan;
+        box-shadow: 0px 0px 10px 0px $strong-cyan;
+    }
+
+    &.btn-secondary {
+        background-color: $light-blue;
+        box-shadow: 0px 0px 10px 0px $light-blue;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.heading {
+    color: $dark-grayish-blue;
+    font-size: 2.2rem;
+    font-weight: 600;
+
+    &.heading-small {
+        font-size: 1.5rem;
+    }
+}
+
+.text {
+    color: $grayish-blue;
+    margin: 15px 0px;
+}
