@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/clipboard-landing-page-made-with-html-scss-and-vite-9kxdf0n5ms)
+- Live Site URL: [Add live site URL here](https://liquidwater0.github.io/Clipboard-Landing-Page/)
 
 ## My process
 

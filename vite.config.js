@@ -1,3 +1,5 @@
-export default {
-    base: "https://github.com/liquidwater0/Clipboard-Landing-Page"
-}
+import { defineConfig } from "vite";
+
+export default defineConfig({
+    base: "/Clipboard-Landing-Page/"
+});
