@@ -53,4 +53,4 @@ I want to continue working on things that challenge my mobile responsiveness ski
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/liquidwater0)
+- Frontend Mentor - [@liquidwater0](https://www.frontendmentor.io/profile/liquidwater0)
